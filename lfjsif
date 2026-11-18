@@ -1,0 +1,17 @@
+
+JavaScript
+
+
+// --- GET ---
+axios.get("https://api.ejemplo.com/v1/clientes")
+ .then(res => console.log(res.data));
+
+// --- POST ---
+axios.post("https://api.ejemplo.com/v1/clientes", { nombre: "Nueva Empresa" })
+ .then(res => console.log(res.data));
+
+// --- PUT ---
+axios.put("https://api.ejemplo.com/v1/clientes/45", { sector: "Finanzas" });
+
+// --- DELETE ---
+axios.delete("https://api.ejemplo.com/v1/clientes/45");
