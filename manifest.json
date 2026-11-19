@@ -1,7 +1,7 @@
 {
-    "name": "CREFÁCIL | Préstamos y pagos",
+    "name": "CREFÁCIL | Control de préstamos",
     "short_name": "CREFÁCIL",
-    "description": "Registro de clientes y calendario de pagos de préstamos, con modalidades diarias y semanales sin cobro los domingos.",
+    "description": "Panel del prestamista para registrar deudores y préstamos, marcar pagos, editarlos, liquidar anticipadamente, renovar y consultar historial.",
     "lang": "es-MX",
     "start_url": "./index.html",
     "scope": "./",

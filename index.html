@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="theme-color" content="#003366">
-    <meta name="description" content="CREFÁCIL: préstamos de $1,000 a $3,000 con pagos diarios o semanales, sin cobro los domingos. Registro rápido y calendario de pagos claro.">
-    <title>CREFÁCIL | Préstamos Claros y Rápidos</title>
+    <meta name="description" content="CREFÁCIL: control de préstamos para el prestamista. Registra deudores, edita sus pagos, marca abonos y consulta su historial para renovar.">
+    <title>CREFÁCIL | Control de Préstamos</title>
 
     <link rel="manifest" href="manifest.json">
     <link rel="icon" href="logo.jpeg" type="image/jpeg">
@@ -18,11 +18,16 @@
         <symbol id="i-wa" viewBox="0 0 24 24">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
         </symbol>
+        <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5L12 3l9 7.5"/><path d="M5 9.5V21h14V9.5M9.5 21v-6h5v6"/></symbol>
+        <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 20c.5-3.4 2.7-5.2 5.5-5.2s5 1.8 5.5 5.2"/><path d="M16 5.2A3 3 0 0 1 16 11M17.5 14.5c2 .6 3.2 2.2 3.5 5.5"/></symbol>
+        <symbol id="i-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19 12a7 7 0 0 0-.1-1.2l2-1.5-2-3.5-2.4 1a7 7 0 0 0-2-1.2L14 3h-4l-.4 2.6a7 7 0 0 0-2 1.2l-2.5-1-2 3.5 2 1.5a7 7 0 0 0 0 2.4l-2 1.5 2 3.5 2.5-1a7 7 0 0 0 2 1.2L10 21h4l.4-2.6a7 7 0 0 0 2-1.2l2.5 1 2-3.5-2-1.5c.1-.4.1-.8.1-1.2z"/></symbol>
         <symbol id="i-wallet" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M16 14h3"/></symbol>
-        <symbol id="i-user" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 20c.5-3.4 2.7-5.2 5.5-5.2s5 1.8 5.5 5.2M16 11l2 2 3.5-3.5"/></symbol>
+        <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5 21c.6-4 3.1-6 7-6s6.4 2 7 6"/></symbol>
+        <symbol id="i-user-plus" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M3 21c.5-4 2.8-6 6-6 1.4 0 2.6.4 3.6 1.1M18 13v8M14 17h8"/></symbol>
         <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M8 15h3"/></symbol>
         <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
-        <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.4-3 7.4-7 9-4-1.6-7-4.6-7-9V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+        <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3l9.5 17h-19z"/><path d="M12 9v5M12 17.5v.5"/></symbol>
+        <symbol id="i-save" viewBox="0 0 24 24"><path d="M5 3h11l3 3v15H5z"/><path d="M8 3v6h8V3M8 21v-7h8v7"/></symbol>
         <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
         <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></symbol>
         <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v11M7 10l5 5 5-5M4 20h16"/></symbol>
@@ -33,283 +38,360 @@
         <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
         <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6 3h3l2 5-2 1.5c1 2.5 3 4.5 5.5 5.5L16 13l5 2v3c0 1.2-1 2-2.2 1.9C10.4 19 5 13.6 4.1 5.2 4 4 4.8 3 6 3z"/></symbol>
         <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
-        <symbol id="i-receipt" viewBox="0 0 24 24"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6"/></symbol>
+        <symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+        <symbol id="i-receipt" viewBox="0 0 24 24"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6M9 16h4"/></symbol>
         <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2L4 14h6l-1 8 9-12h-6z"/></symbol>
+        <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-1.5 6M20 4v7h-7"/></symbol>
+        <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 10.5l6.8-4M8.6 13.5l6.8 4"/></symbol>
+        <symbol id="i-money" viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/><path d="M6 9.5v5M18 9.5v5"/></symbol>
+        <symbol id="i-history" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7M3 4v5h5"/><path d="M12 8v4l3 2"/></symbol>
+        <symbol id="i-x-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 9l6 6M15 9l-6 6"/></symbol>
     </svg>
 
     <div id="offlineBar" class="offline-bar" role="status" hidden>Sin internet. Puedes seguir usando la app con los datos guardados.</div>
 
-    <header class="nav">
-        <a href="#inicio" class="logo" aria-label="CREFÁCIL, ir al inicio">
-            <img src="logo.jpeg" alt="Logo CREFÁCIL" width="50" height="50">
+    <header class="topbar">
+        <button type="button" class="brand" id="brandHome" aria-label="Ir al inicio">
+            <img src="logo.jpeg" alt="Logo CREFÁCIL" width="44" height="44">
             <span>CREFÁCIL</span>
-        </a>
-        <nav class="nav-links" aria-label="Menú principal">
-            <a href="#modalidades" class="nav-link optional">Modalidades</a>
-            <a href="#registro" class="btn btn-sm btn-primary">Registrar</a>
-            <button type="button" class="btn btn-sm btn-outline" data-open-panel>Clientes</button>
+        </button>
+        <nav class="topnav" aria-label="Navegación principal">
+            <button type="button" class="navbtn" data-view="inicio" data-nav="inicio">Inicio</button>
+            <button type="button" class="navbtn" data-view="deudores" data-nav="deudores">Deudores</button>
+            <button type="button" class="navbtn" id="btnPlantillas">Plantillas</button>
+            <button type="button" class="navbtn" id="btnRespaldo">Respaldo</button>
+            <button type="button" class="btn btn-primary btn-sm" data-nuevo>
+                <svg class="icon"><use href="#i-plus"/></svg> Nuevo préstamo
+            </button>
         </nav>
     </header>
 
-    <main>
-        <section class="hero" id="inicio">
-            <div class="hero-content">
-                <p class="kicker">SOLUCIONES FINANCIERAS</p>
-                <h1>Dinero rápido,<br><span>sin tantas vueltas.</span></h1>
-                <p class="hero-sub">Préstamos de <b>$1,000 a $3,000</b> con pagos diarios o semanales. Tú eliges, y <b>los domingos no se cobran</b>.</p>
-                <div class="hero-actions">
-                    <a href="#registro" class="btn btn-primary">
-                        <svg class="icon"><use href="#i-bolt"/></svg> Solicitar ahora
-                    </a>
-                    <a href="https://wa.me/527772257877" target="_blank" rel="noopener" class="btn btn-wa">
-                        <svg class="icon icon-fill"><use href="#i-wa"/></svg> WhatsApp
-                    </a>
-                </div>
-                <p class="hero-note">Registro en 1 minuto · Sin filas · Tus datos se guardan en tu celular</p>
-            </div>
-        </section>
+    <main class="app-main">
 
-        <section class="section steps" id="como-funciona">
-            <div class="section-head">
-                <p class="kicker">PROCESO SIMPLE</p>
-                <h2>Así de <span>fácil</span> funciona</h2>
-            </div>
-            <div class="steps-track" id="stepsTrack" tabindex="0" aria-label="Pasos del préstamo, desliza para ver más">
-                <article class="step-card">
-                    <div class="icon-box"><svg class="icon"><use href="#i-wallet"/></svg></div>
-                    <h3>Eliges el monto</h3>
-                    <p>Desde <b>$1,000 hasta $3,000</b> pesos según lo que necesites hoy mismo.</p>
-                </article>
-                <article class="step-card">
-                    <div class="icon-box"><svg class="icon"><use href="#i-user"/></svg></div>
-                    <h3>Registro express</h3>
-                    <p>Llenas tus datos una vez. <b>Se guardan en tu celular</b> para la próxima.</p>
-                </article>
-                <article class="step-card">
-                    <div class="icon-box"><svg class="icon"><use href="#i-calendar"/></svg></div>
-                    <h3>Pagos a tu ritmo</h3>
-                    <p>Elige pagos <b>diarios o semanales</b>. Si no pagas domingo, el calendario lo respeta.</p>
-                </article>
-                <article class="step-card">
-                    <div class="icon-box"><svg class="icon"><use href="#i-receipt"/></svg></div>
-                    <h3>Calendario claro</h3>
-                    <p>Sabes <b>cuánto y qué día</b> toca cada pago, y cuánto te falta para liquidar.</p>
-                </article>
-            </div>
-        </section>
-
-        <section class="section modalidades" id="modalidades">
-            <div class="section-head">
-                <p class="kicker">TÚ DECIDES</p>
-                <h2>Modalidades de <span>pago</span></h2>
-                <p class="section-sub">Elige la que mejor se adapte a tu bolsillo. Tú o tu asesor pueden crear nuevas modalidades.</p>
-            </div>
-            <div class="card-grid" id="modalidadesGrid"></div>
-            <div class="center-actions">
-                <button type="button" class="btn btn-outline" id="btnNuevaModalidad">
-                    <svg class="icon"><use href="#i-plus"/></svg> Agregar nueva modalidad
-                </button>
-            </div>
-        </section>
-
-        <section class="section registro" id="registro">
-            <div class="section-head">
-                <p class="kicker">EMPIEZA HOY</p>
-                <h2>Registro <span>rápido</span></h2>
-                <p class="section-sub">Solo lo necesario. Se guarda automáticamente mientras escribes.</p>
-            </div>
-
-            <div class="form-card">
-                <div class="editing-banner" id="editingBanner" hidden>
-                    <span>Editando un cliente</span>
-                    <button type="button" class="link-btn" id="cancelarEdicion">Cancelar edición</button>
-                </div>
-
-                <form id="formRegistro" novalidate>
-                    <div class="form-grid">
-                        <label class="field">
-                            <span>Nombre completo</span>
-                            <input id="nombre" name="nombre" type="text" autocomplete="name" placeholder="Ej. Ana López" required>
-                        </label>
-                        <label class="field">
-                            <span>WhatsApp</span>
-                            <input id="telefono" name="telefono" type="tel" inputmode="numeric" autocomplete="tel" placeholder="10 dígitos" required>
-                        </label>
-                        <label class="field">
-                            <span>Monto del préstamo</span>
-                            <input id="monto" name="monto" type="number" inputmode="numeric" min="500" max="20000" step="100" value="1000" required>
-                            <div class="chips" id="montoChips">
-                                <button type="button" data-monto="1000">$1,000</button>
-                                <button type="button" data-monto="1500">$1,500</button>
-                                <button type="button" data-monto="2000">$2,000</button>
-                                <button type="button" data-monto="2500">$2,500</button>
-                                <button type="button" data-monto="3000">$3,000</button>
-                            </div>
-                        </label>
-                        <label class="field">
-                            <span>Modalidad de pago</span>
-                            <select id="modalidad" name="modalidad" required></select>
-                        </label>
-                        <label class="field">
-                            <span>Fecha de inicio</span>
-                            <input id="fechaInicio" name="fechaInicio" type="date" required>
-                        </label>
-                        <label class="field">
-                            <span>Notas (opcional)</span>
-                            <input id="notas" name="notas" type="text" placeholder="Referencia, colonia, etc.">
-                        </label>
-                    </div>
-
-                    <div class="preview" id="preview" aria-live="polite"></div>
-
-                    <label class="check-row">
-                        <input type="checkbox" id="enviarWa" checked>
-                        <span>Abrir WhatsApp al guardar para enviar la solicitud</span>
-                    </label>
-
-                    <div class="form-actions">
-                        <button type="submit" class="btn btn-primary" id="btnGuardar">
-                            <svg class="icon"><use href="#i-check"/></svg> Guardar cliente
-                        </button>
-                        <button type="button" class="btn btn-ghost" id="btnLimpiar">Limpiar</button>
-                    </div>
-                </form>
-            </div>
-        </section>
-
-        <section class="section panel" id="panel" hidden>
-            <div class="section-head panel-head">
+        <section class="view" id="view-inicio">
+            <div class="view-head">
                 <div>
-                    <p class="kicker">ADMINISTRACIÓN</p>
-                    <h2>Clientes <span>registrados</span></h2>
+                    <p class="kicker">TU CARTERA</p>
+                    <h1>Resumen de préstamos</h1>
+                    <p class="muted" id="inicioFecha"></p>
                 </div>
-                <button type="button" class="btn btn-sm btn-ghost" id="btnCerrarPanel">
-                    <svg class="icon"><use href="#i-arrow-left"/></svg> Volver
+                <button type="button" class="btn btn-primary" data-nuevo>
+                    <svg class="icon"><use href="#i-plus"/></svg> Nuevo préstamo
                 </button>
             </div>
-            <p class="section-sub">Los registros se guardan únicamente en este dispositivo. Haz respaldos con frecuencia.</p>
 
-            <div class="panel-toolbar">
+            <div class="stats-grid" id="statsGrid"></div>
+
+            <section class="block">
+                <div class="block-head">
+                    <h2>Cobros de hoy</h2>
+                    <span class="badge" id="cobrosHoyCount" hidden></span>
+                </div>
+                <div id="cobrosHoy"></div>
+            </section>
+
+            <section class="block">
+                <div class="block-head">
+                    <h2>Deudores recientes</h2>
+                    <button type="button" class="link-btn" data-view="deudores">Ver todos</button>
+                </div>
+                <div class="deudores-grid" id="deudoresRecientes"></div>
+            </section>
+        </section>
+
+        <section class="view" id="view-deudores" hidden>
+            <div class="view-head">
+                <div>
+                    <p class="kicker">PERSONAS</p>
+                    <h1>Deudores</h1>
+                    <p class="muted">Consulta su saldo, historial y calificación antes de renovar.</p>
+                </div>
+                <button type="button" class="btn btn-primary" data-nuevo>
+                    <svg class="icon"><use href="#i-user-plus"/></svg> Nuevo préstamo
+                </button>
+            </div>
+
+            <div class="toolbar">
                 <label class="search-box">
                     <svg class="icon"><use href="#i-search"/></svg>
-                    <input type="search" id="buscar" placeholder="Buscar por nombre o teléfono" aria-label="Buscar clientes">
+                    <input type="search" id="buscarDeudor" placeholder="Buscar por nombre o WhatsApp" aria-label="Buscar deudores">
                 </label>
-                <select id="filtroModalidad" aria-label="Filtrar por modalidad"></select>
-                <select id="filtroEstado" aria-label="Filtrar por estado">
-                    <option value="">Todos los estados</option>
-                    <option value="pendiente">Con saldo pendiente</option>
-                    <option value="vencido">Con pagos vencidos</option>
-                    <option value="liquidado">Liquidados</option>
+                <select id="filtroDeudor" aria-label="Filtrar deudores">
+                    <option value="todos">Todos</option>
+                    <option value="activos">Con préstamo activo</option>
+                    <option value="atrasados">Con atrasos</option>
+                    <option value="liquidados">Sin saldo pendiente</option>
+                    <option value="riesgo">En riesgo</option>
                 </select>
             </div>
 
-            <div class="clientes-grid" id="listaClientes"></div>
+            <div class="deudores-grid" id="listaDeudores"></div>
+        </section>
 
-            <div class="panel-actions">
-                <button type="button" class="btn btn-sm btn-outline" id="btnExportarJson">
-                    <svg class="icon"><use href="#i-download"/></svg> Respaldo JSON
-                </button>
-                <button type="button" class="btn btn-sm btn-outline" id="btnExportarCsv">
-                    <svg class="icon"><use href="#i-download"/></svg> Exportar CSV
-                </button>
-                <button type="button" class="btn btn-sm btn-outline" id="btnImportar">
-                    <svg class="icon"><use href="#i-upload"/></svg> Importar respaldo
-                </button>
-                <input type="file" id="importarArchivo" accept="application/json,.json" hidden>
-                <button type="button" class="btn btn-sm btn-outline" id="btnAdministrarModalidades">
-                    <svg class="icon"><use href="#i-receipt"/></svg> Modalidades
-                </button>
+        <section class="view" id="view-deudor" hidden>
+            <button type="button" class="back-btn" data-view="deudores">
+                <svg class="icon"><use href="#i-arrow-left"/></svg> Volver a deudores
+            </button>
+            <div id="deudorHeader"></div>
+            <div class="stats-grid" id="deudorStats"></div>
+            <div id="deudorRecomendacion"></div>
+            <section class="block">
+                <div class="block-head">
+                    <h2>Historial de préstamos</h2>
+                    <span class="muted" id="deudorHistorialCount"></span>
+                </div>
+                <div class="loans-grid" id="deudorPrestamos"></div>
+            </section>
+        </section>
+
+        <section class="view" id="view-prestamo" hidden>
+            <button type="button" class="back-btn" id="btnVolverDeudor">
+                <svg class="icon"><use href="#i-arrow-left"/></svg> Volver al deudor
+            </button>
+            <div id="prestamoHeader"></div>
+            <div class="stats-grid" id="prestamoResumen"></div>
+            <div class="action-row" id="prestamoAcciones"></div>
+            <section class="block" id="prestamoPagos"></section>
+        </section>
+
+        <section class="view" id="view-form" hidden>
+            <button type="button" class="back-btn" id="btnCancelarForm">
+                <svg class="icon"><use href="#i-arrow-left"/></svg> Volver
+            </button>
+            <div class="view-head">
+                <div>
+                    <p class="kicker" id="formKicker">NUEVO</p>
+                    <h1 id="formTitulo">Nuevo préstamo</h1>
+                </div>
             </div>
+
+            <form id="formPrestamo" class="form-card" novalidate>
+                <div id="formDeudorBlock">
+                    <div class="form-section-title">Deudor</div>
+                    <div class="form-grid">
+                        <label class="field">
+                            <span>Seleccionar deudor</span>
+                            <select id="prestamoDeudor"></select>
+                        </label>
+                    </div>
+                    <div class="form-grid" id="nuevoDeudorFields">
+                        <label class="field">
+                            <span>Nombre completo</span>
+                            <input type="text" id="prestamoNombre" autocomplete="name" placeholder="Ej. Ana López">
+                        </label>
+                        <label class="field">
+                            <span>WhatsApp</span>
+                            <input type="tel" id="prestamoTelefono" inputmode="numeric" autocomplete="tel" placeholder="10 dígitos">
+                        </label>
+                    </div>
+                </div>
+
+                <div class="deudor-chip" id="deudorSeleccionadoInfo" hidden></div>
+
+                <div class="form-section-title">Datos del préstamo</div>
+                <div class="form-grid">
+                    <label class="field">
+                        <span id="montoLabel">Monto del préstamo</span>
+                        <input type="number" id="prestamoMonto" inputmode="numeric" min="100" max="100000" step="50" value="1000" required>
+                        <div class="chips" id="montoChips">
+                            <button type="button" data-monto="1000">$1,000</button>
+                            <button type="button" data-monto="1500">$1,500</button>
+                            <button type="button" data-monto="2000">$2,000</button>
+                            <button type="button" data-monto="2500">$2,500</button>
+                            <button type="button" data-monto="3000">$3,000</button>
+                        </div>
+                    </label>
+                    <label class="field">
+                        <span>Fecha de entrega</span>
+                        <input type="date" id="prestamoFecha" required>
+                    </label>
+                </div>
+
+                <div class="form-section-title">Modalidad de pago</div>
+                <div class="form-grid">
+                    <label class="field">
+                        <span>Plantilla</span>
+                        <select id="prestamoPlantilla"></select>
+                    </label>
+                    <label class="field">
+                        <span>Frecuencia</span>
+                        <select id="prestamoFrecuencia">
+                            <option value="diaria">Diaria</option>
+                            <option value="semanal">Semanal</option>
+                            <option value="personalizada">Personalizada</option>
+                        </select>
+                    </label>
+                    <label class="field" id="prestamoCadaDiasField" hidden>
+                        <span>Cada cuántos días</span>
+                        <input type="number" id="prestamoCadaDias" min="1" max="90" step="1" value="15">
+                    </label>
+                    <label class="field">
+                        <span>Número de pagos</span>
+                        <input type="number" id="prestamoNumeroPagos" min="1" max="120" step="1" value="7" required>
+                    </label>
+                    <label class="field">
+                        <span>Interés / comisión (%)</span>
+                        <input type="number" id="prestamoInteres" min="0" max="200" step="0.5" value="20" required>
+                    </label>
+                </div>
+                <label class="check-row">
+                    <input type="checkbox" id="prestamoOmitirDomingo" checked>
+                    <span>No generar pagos en domingo (se recorre al lunes)</span>
+                </label>
+
+                <div class="renovacion-box" id="renovacionBlock" hidden>
+                    <p>Saldo pendiente del préstamo anterior: <b id="renovSaldo">$0</b></p>
+                    <label class="radio-row">
+                        <input type="radio" name="renovModo" value="separado" checked>
+                        <span>Crear el nuevo préstamo por separado (el anterior sigue su curso)</span>
+                    </label>
+                    <label class="radio-row">
+                        <input type="radio" name="renovModo" value="sumar">
+                        <span>Sumar el saldo pendiente al nuevo préstamo (el anterior se marca como renovado)</span>
+                    </label>
+                    <p class="hint" id="renovHint"></p>
+                </div>
+
+                <div class="preview" id="formPreview" aria-live="polite"></div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary" id="btnGuardarPrestamo">
+                        <svg class="icon"><use href="#i-check"/></svg> Guardar préstamo
+                    </button>
+                    <button type="button" class="btn btn-ghost" id="btnCancelarForm2">Cancelar</button>
+                </div>
+            </form>
         </section>
     </main>
 
+    <nav class="bottomnav" aria-label="Navegación móvil">
+        <button type="button" class="bn-item" data-view="inicio" data-nav="inicio">
+            <svg class="icon"><use href="#i-home"/></svg><span>Inicio</span>
+        </button>
+        <button type="button" class="bn-item" data-view="deudores" data-nav="deudores">
+            <svg class="icon"><use href="#i-users"/></svg><span>Deudores</span>
+        </button>
+        <button type="button" class="bn-item bn-add" data-nuevo>
+            <span class="bn-plus"><svg class="icon"><use href="#i-plus"/></svg></span><span>Nuevo</span>
+        </button>
+        <button type="button" class="bn-item" id="btnAjustesBottom">
+            <svg class="icon"><use href="#i-settings"/></svg><span>Ajustes</span>
+        </button>
+    </nav>
+
     <footer class="footer">
         <div class="footer-brand">
-            <img src="logo.jpeg" alt="Logo CREFÁCIL" width="45" height="45" loading="lazy">
-            <div>
-                <strong>CREFÁCIL</strong>
-                <p>Préstamos claros y rápidos.</p>
-            </div>
+            <img src="logo.jpeg" alt="Logo CREFÁCIL" width="38" height="38" loading="lazy">
+            <div><strong>CREFÁCIL</strong><p>Control de préstamos</p></div>
         </div>
-        <div class="footer-links">
-            <a href="#inicio">Inicio</a>
-            <a href="#registro">Registrar</a>
-            <a href="#como-funciona">Cómo funciona</a>
-            <button type="button" class="link-btn" data-open-panel>Panel de clientes</button>
-        </div>
-        <p class="footer-copy">© <span id="anio">2026</span> CREFÁCIL GRUPO FINANCIERO. Todos los derechos reservados.</p>
+        <p class="footer-copy">Los datos se guardan solo en este dispositivo. Descarga un respaldo con frecuencia. © <span id="anio">2026</span></p>
     </footer>
 
-    <a href="https://wa.me/527772257877" target="_blank" rel="noopener" class="float-ws" aria-label="Escribir por WhatsApp">
-        <svg class="icon icon-fill"><use href="#i-wa"/></svg>
-    </a>
-
-    <div class="modal" id="modalCliente" hidden>
+    <div class="modal" id="modalDeudor" hidden>
         <div class="modal-backdrop" data-close-modal></div>
-        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="clienteTitulo">
+        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalDeudorTitulo">
             <div class="modal-head">
-                <h3 id="clienteTitulo">Detalle del cliente</h3>
-                <button type="button" class="icon-btn" data-close-modal aria-label="Cerrar">
-                    <svg class="icon"><use href="#i-close"/></svg>
+                <h3 id="modalDeudorTitulo">Editar deudor</h3>
+                <button type="button" class="icon-btn" data-close-modal aria-label="Cerrar"><svg class="icon"><use href="#i-close"/></svg></button>
+            </div>
+            <form id="formDeudor" class="modal-body">
+                <div class="form-grid">
+                    <label class="field"><span>Nombre completo</span><input type="text" id="deudorNombre" required></label>
+                    <label class="field"><span>WhatsApp</span><input type="tel" id="deudorTelefono" inputmode="numeric" placeholder="10 dígitos"></label>
+                </div>
+                <label class="field" style="margin-top:14px"><span>Notas</span><input type="text" id="deudorNotas" placeholder="Referencias, dirección, observaciones"></label>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary"><svg class="icon"><use href="#i-save"/></svg> Guardar cambios</button>
+                    <button type="button" class="btn btn-ghost" data-close-modal>Cancelar</button>
+                </div>
+            </form>
+            <div class="modal-foot">
+                <button type="button" class="btn btn-ghost btn-danger" id="btnEliminarDeudor">
+                    <svg class="icon"><use href="#i-trash"/></svg> Eliminar deudor
                 </button>
             </div>
-            <div class="modal-body" id="clienteDetalle"></div>
-            <div class="modal-foot" id="clienteAcciones"></div>
         </div>
     </div>
 
-    <div class="modal" id="modalModalidad" hidden>
+    <div class="modal" id="modalAjustes" hidden>
         <div class="modal-backdrop" data-close-modal></div>
-        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalidadTitulo">
+        <div class="modal-card modal-wide" role="dialog" aria-modal="true" aria-labelledby="modalAjustesTitulo">
             <div class="modal-head">
-                <h3 id="modalidadTitulo">Modalidades de pago</h3>
-                <button type="button" class="icon-btn" data-close-modal aria-label="Cerrar">
-                    <svg class="icon"><use href="#i-close"/></svg>
-                </button>
+                <h3 id="modalAjustesTitulo">Ajustes</h3>
+                <button type="button" class="icon-btn" data-close-modal aria-label="Cerrar"><svg class="icon"><use href="#i-close"/></svg></button>
             </div>
             <div class="modal-body">
-                <div class="modality-list" id="listaModalidades"></div>
+                <section class="settings-section">
+                    <h4>Plantillas de modalidad</h4>
+                    <p class="hint">Las plantillas se usan al crear préstamos. Cambiar una plantilla no altera los préstamos ya guardados.</p>
+                    <div class="modality-list" id="listaPlantillas"></div>
 
-                <form id="formModalidad" class="modality-form">
-                    <h4 id="formModalidadTitulo">Nueva modalidad</h4>
-                    <div class="form-grid">
-                        <label class="field">
-                            <span>Nombre</span>
-                            <input type="text" id="modNombre" placeholder="Ej. Pago cada 15 días" maxlength="40" required>
+                    <form id="formPlantilla" class="modality-form">
+                        <h5 id="formPlantillaTitulo">Nueva plantilla</h5>
+                        <div class="form-grid">
+                            <label class="field"><span>Nombre</span><input type="text" id="plantillaNombre" maxlength="40" placeholder="Ej. Pago cada 15 días" required></label>
+                            <label class="field">
+                                <span>Frecuencia</span>
+                                <select id="plantillaFrecuencia">
+                                    <option value="diaria">Diaria</option>
+                                    <option value="semanal">Semanal</option>
+                                    <option value="personalizada">Personalizada</option>
+                                </select>
+                            </label>
+                            <label class="field" id="plantillaCadaDiasField" hidden><span>Cada cuántos días</span><input type="number" id="plantillaCadaDias" min="1" max="90" value="15"></label>
+                            <label class="field"><span>Número de pagos</span><input type="number" id="plantillaNumeroPagos" min="1" max="120" value="7" required></label>
+                            <label class="field"><span>Interés / comisión (%)</span><input type="number" id="plantillaInteres" min="0" max="200" step="0.5" value="20" required></label>
+                        </div>
+                        <label class="check-row">
+                            <input type="checkbox" id="plantillaOmitirDomingo" checked>
+                            <span>No generar pagos en domingo</span>
                         </label>
-                        <label class="field">
-                            <span>Frecuencia</span>
-                            <select id="modFrecuencia">
-                                <option value="diaria">Diaria</option>
-                                <option value="semanal">Semanal</option>
-                                <option value="personalizada">Personalizada</option>
-                            </select>
-                        </label>
-                        <label class="field" id="modCadaDiasField" hidden>
-                            <span>Cada cuántos días</span>
-                            <input type="number" id="modCadaDias" min="1" max="90" step="1" value="15">
-                        </label>
-                        <label class="field">
-                            <span>Número de pagos</span>
-                            <input type="number" id="modNumeroPagos" min="1" max="120" step="1" value="7" required>
-                        </label>
-                        <label class="field">
-                            <span>Interés / comisión (%)</span>
-                            <input type="number" id="modInteres" min="0" max="200" step="0.5" value="20" required>
-                        </label>
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary" id="btnGuardarPlantilla"><svg class="icon"><use href="#i-check"/></svg> Guardar plantilla</button>
+                            <button type="button" class="btn btn-ghost" id="btnCancelarPlantilla" hidden>Cancelar</button>
+                        </div>
+                    </form>
+                </section>
+
+                <section class="settings-section">
+                    <h4>Respaldo de datos</h4>
+                    <p class="hint">Descarga un respaldo para no perder la información si cambias de celular o borras los datos del navegador.</p>
+                    <div class="btn-row">
+                        <button type="button" class="btn btn-sm btn-outline" id="btnExportJson"><svg class="icon"><use href="#i-download"/></svg> Respaldo JSON</button>
+                        <button type="button" class="btn btn-sm btn-outline" id="btnExportCsvDeudores"><svg class="icon"><use href="#i-download"/></svg> CSV deudores</button>
+                        <button type="button" class="btn btn-sm btn-outline" id="btnExportCsvPagos"><svg class="icon"><use href="#i-download"/></svg> CSV pagos</button>
+                        <button type="button" class="btn btn-sm btn-outline" id="btnImportar"><svg class="icon"><use href="#i-upload"/></svg> Importar respaldo</button>
+                        <input type="file" id="importarArchivo" accept="application/json,.json" hidden>
                     </div>
-                    <label class="check-row">
-                        <input type="checkbox" id="modOmitirDomingo" checked>
-                        <span>No generar pagos en domingo</span>
-                    </label>
-                    <div class="form-actions">
-                        <button type="submit" class="btn btn-primary" id="btnGuardarModalidad">
-                            <svg class="icon"><use href="#i-check"/></svg> Guardar modalidad
-                        </button>
-                        <button type="button" class="btn btn-ghost" id="btnCancelarModalidad" hidden>Cancelar</button>
-                    </div>
-                </form>
+                </section>
+
+                <section class="settings-section danger-zone">
+                    <h4>Borrar todo</h4>
+                    <p class="hint">Elimina todos los deudores, préstamos y pagos de este dispositivo. No se puede deshacer.</p>
+                    <button type="button" class="btn btn-sm btn-danger" id="btnBorrarTodo"><svg class="icon"><use href="#i-trash"/></svg> Borrar todos los datos</button>
+                </section>
             </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modalLiquidar" hidden>
+        <div class="modal-backdrop" data-close-modal></div>
+        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalLiquidarTitulo">
+            <div class="modal-head">
+                <h3 id="modalLiquidarTitulo">Liquidar anticipadamente</h3>
+                <button type="button" class="icon-btn" data-close-modal aria-label="Cerrar"><svg class="icon"><use href="#i-close"/></svg></button>
+            </div>
+            <form id="formLiquidar" class="modal-body">
+                <p class="hint">Cierra el préstamo aunque queden cuotas pendientes. Se guardará en el historial como liquidación anticipada.</p>
+                <div class="form-grid" style="margin-top:14px">
+                    <label class="field"><span>Monto recibido</span><input type="number" id="liquidarMonto" min="0" step="0.01" required></label>
+                    <label class="field"><span>Fecha de liquidación</span><input type="date" id="liquidarFecha" required></label>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary"><svg class="icon"><use href="#i-check"/></svg> Confirmar liquidación</button>
+                    <button type="button" class="btn btn-ghost" data-close-modal>Cancelar</button>
+                </div>
+            </form>
         </div>
     </div>
 

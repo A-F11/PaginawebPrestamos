@@ -1,4 +1,4 @@
-var CACHE = 'crefacil-v1';
+var CACHE = 'crefacil-v6';
 
 var ASSETS = [
     './',
